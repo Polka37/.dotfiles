@@ -1,0 +1,135 @@
+{
+  "logo": {
+    "type": "auto",
+    "source": "debian",
+	  "padding": {
+		  "top":  2,
+		  "left": 1 
+	  },
+	  "color": {
+		  "1": "#d20f39",
+		  "2": "#f5bde6"
+	  }
+  },
+  "display": {
+    "separator": "",
+    "color": {
+	    "keys": "#d20f39",
+	    "title": "#d20f39"
+    },
+    "key": {
+    	"width": 16
+    },
+    "size": {
+	    "binaryPrefix": "si",
+      "ndigits": 1
+    },
+    "percent": {
+      "color": {
+        "green": "#f5bde6",
+        "yellow": "#e78284",
+        "red": "#d20f39"
+      }
+    },
+    "temp": {
+      "color": {
+        "green": "#f5bde6",
+        "yellow": "#e78284",
+        "red": "#d20f39"
+      }
+    }
+  },
+  "modules": [
+	  "break",
+	  {
+		  "type": "os",
+		  "key": " OS"
+	  }, 
+	  {
+		  "type": "kernel",
+		  "key": "├─ Kernel"
+	  },
+	  {
+		  "type": "packages",
+		  "key": "├─󰆧 Packages"
+	  },
+	  {
+		  "type": "shell",
+		  "key": "├─ Shell"
+	  },
+	  {
+		  "type": "uptime",
+		  "key": "├─ Uptime"
+	  },    
+    {
+      "type": "disk",
+      "key": "╰─ Age",
+      "folders": "/",                                   // Check root filesystem
+      "format": "{days} days"        // Show creation time and age in days
+    },
+	  "break",
+	  {
+		  "type": "de",
+		  "key": " DE",
+		  "keycolor": "#e78284"
+	  },
+	  {
+		  "type": "wm",
+      "format": "{3}",
+		  "key": "├─ WM",
+		  "keycolor": "#e78284"
+	  }, 
+	  {
+		  "type": "terminal",
+		  "key": "├─ Terminal",
+		  "keycolor": "#e78284"
+	  },
+	  {
+		  "type": "font",
+		  "key": "├─ Font",
+		  "keycolor": "#e78284"
+	  },
+	  {
+		  "type": "wallpaper",
+		  "key": "╰─ Wallpaper",
+		  "keycolor": "#e78284"
+	  },
+	  "break", 
+	  {
+		  "type": "host",
+      "format": "{1}",
+		  "key": "󰍹 PC",
+		  "keycolor": "#f5bde6"
+	  },
+	  {
+		  "type": "cpu",
+		  "key": "├─ CPU",
+		  "temp": true,
+		  "keycolor": "#f5bde6"
+	  },
+	  {
+		  "type": "gpu",
+      "format": "{6} - {2}",
+		  "key": "├─ GPU",
+		  "keycolor": "#f5bde6",
+	  },
+	  {
+		  "type": "disk",
+		  "key": "├─ Memory",
+		  "keycolor": "#f5bde6",
+		  "format": "{1}/{2} ({3}) - {9} "
+	  },
+	  {
+		  "type": "memory",
+		  "key": "├─󰑭 RAM",
+		  "keycolor": "#f5bde6"
+	  },
+	  {
+		  "type": "display",
+      "format": "{1}x{2}p {3}Hz {12}″",
+		  "key": "╰─󰍹 Monitor",
+		  "keycolor": "#f5bde6"
+	  },
+    "break"
+  ]
+}
