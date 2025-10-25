@@ -2788,6 +2788,6 @@ font_family  0xProto Nerd Font
 
 
 # BEGIN_KITTY_THEME
-# Adwaita darker
+# Catppuccin-Mocha
 include current-theme.conf
 # END_KITTY_THEME
