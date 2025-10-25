@@ -1,10 +1,10 @@
 # .dotfiles
 Personal dotfiles
 
-#Installation
+# Installation
 
 Clone repository to your home folder
-git clone https://github.com/Polka37/.dotfiles
+> git clone https://github.com/Polka37/.dotfiles
 
 Create symlinks via stow
-stow git kitty fastfetch fish
+> stow git kitty fastfetch fish
