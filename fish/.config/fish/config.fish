@@ -7,6 +7,9 @@ set -U fish_greeting
 
 alias tree='tree -C'
 alias logout='cinnamon-session-quit --logout --no-prompt'
+alias vim='nvim'
+
+export EDITOR=nvim
 
 function last_history_item
     echo $history[1]
