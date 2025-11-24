@@ -1,6 +1,6 @@
 if status is-interactive
     # Commands to run in interactive sessions can go here
-    fastfetch
+    sleep 0.1 && fastfetch
 end
 
 set -U fish_greeting
@@ -8,8 +8,9 @@ set -U fish_greeting
 alias tree='tree -C'
 alias logout='cinnamon-session-quit --logout --no-prompt'
 alias vim='nvim'
+alias bios='systemctl reboot --firmware-setup'
 
-export EDITOR=nvim
+set -U EDITOR nvim
 
 function last_history_item
     echo $history[1]
