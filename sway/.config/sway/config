@@ -2,6 +2,7 @@
 
 # Logo key. Use Mod1 for Alt.
 set $mod Mod4
+
 # Home row direction keys, like vim
 set $left h
 set $down j
@@ -15,12 +16,15 @@ set $launcher wofi -I --show drun
 set $screeshot flameshot gui
 set $files nemo
 set $music kitty ~/Documents/Appimage/rmpc
+set $editor kitty nvim
 
 include /etc/sway/config-vars.d/*
 
 # Default wallpaper
 output * bg ~/.config/sway/wallpaper/renmari.jpg fill
-# output * bg ~/.config/sway/wallpaper/rin.jpg fill
+#output * bg ~/.config/sway/wallpaper/yukayu.jpg fill
+#output * bg ~/.config/sway/wallpaper/yuyu.jpg fill
+#output * bg ~/.config/sway/wallpaper/rin.jpg fill
 
 # class                 border  backgr. text    indicator child_border
 client.focused          #ac82e9 #181825 #d8cab8 #ac82e9 #ac82e9
@@ -50,7 +54,6 @@ input "type:keyboard" {
     bindsym $mod+Return exec $term
 
     # Kill focused window
-    bindsym $mod+Shift+q kill
     bindsym $mod+c kill
 
     # Start your launcher
@@ -63,6 +66,7 @@ input "type:keyboard" {
     bindsym $mod+m exec $music
     bindsym $mod+z exec $files
     bindsym $mod+x exec $browser
+    bindsym $mod+q exec $editor
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
@@ -91,7 +95,7 @@ input "type:keyboard" {
     bindsym $mod+Shift+Up focus up
     bindsym $mod+Shift+Right focus right
 
-    # Move the focused window with the same, but add Shift
+    # Move the focused window with the same
     bindsym $mod+$left move left
     bindsym $mod+$down move down
     bindsym $mod+$up move up
@@ -159,14 +163,9 @@ input "type:keyboard" {
 #
 # Scratchpad:
 #
-    # Sway has a "scratchpad", which is a bag of holding for windows.
-    # You can send windows there and get them back later.
-
     # Move the currently focused window to the scratchpad
     bindsym $mod+Shift+minus move scratchpad
-
     # Show the next scratchpad window or hide the focused scratchpad window.
-    # If there are multiple scratchpad windows, this command cycles through them.
     bindsym $mod+minus scratchpad show
 #
 # Resizing containers:
