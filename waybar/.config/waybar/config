@@ -3,10 +3,10 @@
   "spacing": 0,
   "height": 0,
   "margin-bottom": 0,
-  "margin-top": 6,
+  "margin-top": 4,
   "position": "top",
-  "margin-right": 20,
-  "margin-left": 20,
+  "margin-right": 60,
+  "margin-left": 60,
   "modules-left": [
     "sway/workspaces", "sway/mode", "sway/scratchpad", "custom/media"
   ],
@@ -77,7 +77,7 @@
   "mpd": {
       "format": "{title} {elapsedTime:%M:%S}/{totalTime:%M:%S} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon} {stateIcon}",
       "format-disconnected": "Disconnected",
-      "format-stopped": "{consumeIcon}{randomIcon}{repeatIcon}{singleIcon}Stopped ",
+      "format-stopped": "{consumeIcon}{randomIcon}{repeatIcon}{singleIcon}Stopped",
       "unknown-tag": "N/A",
       "interval": 2,
       "consume-icons": {
