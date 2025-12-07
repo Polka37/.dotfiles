@@ -75,7 +75,7 @@
     "on-click": "kitty btop"
   },
   "mpd": {
-      "format": "{title} {elapsedTime:%M:%S}/{totalTime:%M:%S} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon} {stateIcon}",
+      "format": "{title} {elapsedTime:%M:%S}/{totalTime:%M:%S} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{stateIcon}",
       "format-disconnected": "Disconnected",
       "format-stopped": "{consumeIcon}{randomIcon}{repeatIcon}{singleIcon}Stopped",
       "unknown-tag": "N/A",
@@ -84,7 +84,6 @@
           "on": " "
       },
       "random-icons": {
-          "off": "<span color=\"#f53c3c\"></span> ",
           "on": " "
       },
       "repeat-icons": {
