@@ -8,15 +8,15 @@
 }
 
 window#waybar {
-  /* Linear gradients are used because it makes less harsh rounded border radius, gtk bug :p */
-  background-image: linear-gradient(to bottom, #141216 100%);
+  opacity: 50;
+  background-color: #141216;
   border-radius: 14px;
   padding: 0px;
   border-style: none;
 }
 
 tooltip {
-  background-image: linear-gradient(to bottom, #27232b 100%);
+  background-color: #27232b;
   border-style: none;
 }
 
@@ -34,7 +34,7 @@ tooltip label {
 #mpd,
 #window,
 #pulseaudio {
-  background-image: linear-gradient(to bottom, #27232b 100%);
+  background-color: #27232b;
 
   margin: 6px;
   margin-right: 0px;
@@ -52,6 +52,7 @@ tooltip label {
 
 #pulseaudio:hover {
   background-image: linear-gradient(to bottom, #ac82e9 100%);
+  background-color: #ac82e9;
   color: #141216;
   transition-duration: 120ms;
 }
@@ -62,7 +63,7 @@ tooltip label {
   padding: 4px;
 }
 #tray menu menuitem {
-  background-image: linear-gradient(to bottom, #27232b 100%);
+  background-color: #27232b;
 
   margin: 3px;
   color: #d8cab8;
@@ -71,7 +72,7 @@ tooltip label {
   border-color: #27232b;
 }
 #tray menu menuitem:hover {
-  background-image: linear-gradient(to bottom, #27232b 100%);
+  background-color: #27232b;
   color: #ac82e9;
   font-weight: bold;
 }
