@@ -125,13 +125,13 @@ queue: {
            ),
        tabs: [
          (name: "Home", pane: Split(direction: Horizontal, panes: [
-                                    (size: "50%", borders: "NONE", pane: Split(direction: Vertical,panes: [
+                                    (size: "55%", borders: "NONE", pane: Split(direction: Vertical,panes: [
                                                                                (size: "3", borders: "ALL", pane: Component("custom_song_table_header")),
                                                                                (size: "100%", borders: "ALL", pane: Pane(Queue)),
                                     ])
                                     ),
-                                    (size: "50%", borders: "NONE", pane: Split(direction: Vertical, panes: [
-                                                                               (size: "0.40r", borders: "ALL", pane: Pane(AlbumArt)),
+                                    (size: "45%", borders: "NONE", pane: Split(direction: Vertical, panes: [
+                                                                               (size: "0.45r", borders: "ALL", pane: Pane(AlbumArt)),
                                                                                (size: "100%", borders: "NONE", pane: Pane(Cava)),
                                     ])
                                     ),

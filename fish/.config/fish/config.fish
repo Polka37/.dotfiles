@@ -22,6 +22,12 @@ alias gitr='git restore'
 
 set -U EDITOR nvim
 
+function ffmp_artist -a file artist
+    ffmpeg -i $file -metadata artist=$artist -codec copy new_$file -hide_banner
+    trash $file
+    mv new_$file $file
+end
+
 function last_history_item
     echo $history[1]
 end
