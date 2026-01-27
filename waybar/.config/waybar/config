@@ -15,6 +15,7 @@
   "modules-right": [
     "mpd",
     "network",
+    "backlight",
     "battery",
     "pulseaudio",
     "tray",
@@ -42,6 +43,12 @@
     "tooltip": false,
     "on-click": "nm-connection-editor"
   },
+  "backlight":{
+    "format": "{icon} {percent}%",
+    "format-icons": ["", "", "", "", "", "", "", "", ""],
+    "smooth-scrolling-treshold": 1,
+    "scroll-step": 5
+    },
   "pulseaudio": {
     "scroll-step": 2,
     "max-volume": 100,
