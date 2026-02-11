@@ -18,6 +18,7 @@ bindsym $mod+n exec swaync-client -t
 # Shortcuts
 bindsym $mod+z exec $files
 bindsym $mod+x exec $browser
+bindsym $mod+Shift+x exec $browser --private-window
 bindsym $mod+a exec $music
 bindsym $mod+s exec $chat
 bindsym $mod+q exec $editor
