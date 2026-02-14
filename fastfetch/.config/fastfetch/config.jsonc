@@ -104,6 +104,12 @@
 		  "keyColor": "#f5bde6"
 	  },
 	  {
+		  "type": "custom",
+      "format": "She/Them",
+		  "key": "├─ Pronouns",
+		  "keyColor": "#f5bde6"
+	  },
+	  {
 		  "type": "cpu",
 		  "key": "├─ CPU",
 		  "temp": true,
