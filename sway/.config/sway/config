@@ -85,5 +85,8 @@ exec bash -c "input-remapper-control --command stop-all && input-remapper-contro
 exec $browser
 exec steam -silent
 exec blueman-applet
+exec $chat
+for_window [class="discord"] move to workspace 3
 
 include /etc/sway/config.d/*
+
