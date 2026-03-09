@@ -28,9 +28,9 @@ include /etc/sway/config-vars.d/*
 ## Theme
 
 # Default wallpaper
-#output * bg ~/.config/sway/wallpaper/renmari.jpg fill
+ output * bg ~/.config/sway/wallpaper/renmari.jpg fill
 # output * bg ~/.config/sway/wallpaper/yuyou.jpg fill
-output * bg ~/.config/sway/wallpaper/yukayu.jpg fill
+# output * bg ~/.config/sway/wallpaper/yukayu.jpg fill
 # output * bg ~/.config/sway/wallpaper/Reimari.jpeg fill
 # output * bg ~/.config/sway/wallpaper/yuyu.jpg fill
 # output * bg ~/.config/sway/wallpaper/rin.jpg fill
