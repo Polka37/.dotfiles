@@ -39,7 +39,7 @@ tooltip label {
 
   margin: 6px;
   margin-right: 0px;
-  padding: 4px 8px;
+  padding: 3px 6px;
   border-radius: 8px;
   color: #d8cab8;
 
@@ -105,7 +105,6 @@ tooltip label {
 }
 
 #battery {
-  background-color: #222222;
   color: #d8cab8;
 }
 #battery.warning,
