@@ -72,6 +72,10 @@ input "type:touchpad" {
     pointer_accel 1.0
     accel_profile flat 
 }
+input "type:pointer" {
+    natural_scroll enabled
+    scroll_factor 1.2
+}
 input "type:keyboard" {
     xkb_layout pl,us
 }
