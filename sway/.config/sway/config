@@ -18,8 +18,7 @@ set $files nemo
 set $music kitty ~/Documents/Appimage/rmpc
 set $editor kitty nvim
 set $image_editor /usr/bin/flatpak run --branch=stable --arch=x86_64 --command=krita --file-forwarding org.kde.krita 
-set $chat /usr/bin/flatpak run --branch=stable --arch=x86_64 --command=com.discordapp.Discord --file-forwarding com.discordapp.Discord
-
+set $chat /usr/bin/flatpak run --branch=stable --arch=x86_64 --command=startvesktop --file-forwarding dev.vencord.Vesktop @@u %U @@
 # Key bindings
 include ~/.config/sway/keybinds
 
@@ -92,6 +91,7 @@ exec steam -silent
 exec blueman-applet
 exec $chat
 for_window [class="discord"] move to workspace 3
+for_window [app_id="vesktop"] move to workspace 3
 
 include /etc/sway/config.d/*
 
