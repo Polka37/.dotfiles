@@ -27,10 +27,10 @@ include /etc/sway/config-vars.d/*
 ## Theme
 
 # Default wallpaper
- #output * bg ~/.config/sway/wallpaper/renmari.jpg fill
+# output * bg ~/.config/sway/wallpaper/renmari.jpg fill
 # output * bg ~/.config/sway/wallpaper/yuyou.jpg fill
-# output * bg ~/.config/sway/wallpaper/yukayu.jpg fill
-output * bg ~/.config/sway/wallpaper/yukareimu.png fill
+ output * bg ~/.config/sway/wallpaper/yukayu.jpg fill
+#output * bg ~/.config/sway/wallpaper/yukareimu.png fill
 # output * bg ~/.config/sway/wallpaper/Reimari.jpeg fill
 # output * bg ~/.config/sway/wallpaper/yuyu.jpg fill
 # output * bg ~/.config/sway/wallpaper/rin.jpg fill
@@ -92,6 +92,7 @@ exec blueman-applet
 exec $chat
 for_window [class="discord"] move to workspace 3
 for_window [app_id="vesktop"] move to workspace 3
+for_window [class="krita"] move to workspace 2
 
 include /etc/sway/config.d/*
 

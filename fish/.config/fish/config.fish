@@ -9,7 +9,7 @@ set -U fish_greeting
 alias tree='tree -C'
 alias logout='cinnamon-session-quit --logout --no-prompt'
 alias vim='nvim'
-alias yt-dlp='~/Documents/Appimage/yt-dlp_linux -t mp3 --embed-thumbnail --embed-metadata --embed-subs --embed-chapters --paths ~/Music/'
+alias yt-dlp='~/Documents/Appimage/yt-dlp_linux -t mp4 --embed-thumbnail --embed-metadata --embed-subs --embed-chapters --paths ~/Music/'
 alias bios='systemctl reboot --firmware-setup'
 alias cat='batcat' #Fancier cat command
 
