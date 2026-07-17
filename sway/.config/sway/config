@@ -75,8 +75,10 @@ input "type:pointer" {
     natural_scroll enabled
     scroll_factor 1.2
 }
+#needs qwerty-fr
 input "type:keyboard" {
-    xkb_layout pl,us
+    xkb_layout "pl,us_qwerty-fr" 
+    xkb_options grp:lctrl_toggle
 }
 
 # Startup
